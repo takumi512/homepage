@@ -10,7 +10,7 @@ body {
 
 header {
   width: 100%;
-  background-color: #333;
+  /* background-color: #333; */
   color: white;
   padding: 5px 0;
   text-align: center;
@@ -27,9 +27,11 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: blue;
   text-decoration: none;
+  /* background-color: aqua; */
 }
+.list1 
 
 .container {
   display: flex;
@@ -67,6 +69,32 @@ nav ul li a {
   box-sizing: border-box;
   align-items: center;
 }
+.content h1 {
+  font-size: 180%;
+}
+.content h2 {
+  margin-bottom: 0px;
+}
+.content p {
+  margin-left: 20px;
+  margin-top: 0;
+}
+.content a,a:visited{
+  text-decoration: none;
+  color: black;
+}
+.content a:hover{
+  text-decoration: underline;
+}
+
+.language{
+  margin-left: 20px;
+}
+.language div{
+  margin-left: 1em;
+  font-size: 90%;
+  margin-bottom: 10px;
+}
 
 section {
   margin-bottom: 20px;
@@ -75,3 +103,4 @@ section {
 a:hover {
   text-decoration: underline;
 }
+
