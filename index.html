@@ -1,69 +1,113 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <!-- <h1>Welcome to My GitHub Page</h1> -->
-        <nav class="navigation">
-            <ul>
-                <li><a href="#home">ホーム</a></li>
-                <li><a href="#profile">プロフィール</a></li>
-                <li><a href="#blogs">ブログ</a></li>
-                <li><a href="#notes">ノート</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+    <nav>
+        <a href="#" class="logo">
+            Takumi Suzuki
+        </a>
+        <a href="#">about</a>
+        <a href="#">service</a>
+        <a href="#">products</a>
+        <a href="#">news</a>
+        <a href="https://github.com/takumi512" class="contact">
+            <img src="images/github_logo.png" alt="メイン画像">
+        </a>
+    </nav>
+
+    <div class="main_image">
+        <div id="main_image_wrap">
+            <img src="images/main_image.jpg" alt="メイン画像">
+        </div>
+    </div>
     <div class="container">
-        <!-- <aside class="sidebar">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </aside> -->
-        
         <main class="content">
             <section id="about">
                 <h1>自己紹介</h1>
-                    <h2>経歴</h2>
-                    <p>2024.04 -  現在 : 
-                        <a href="http://gnst.gifu-u.ac.jp/intellscieng/">岐阜大学 自然科学技術研究科 知能理工学専攻 知能情報学領域</a><br>
-                        2020.04 - 2024.03: <a href="https://www.eng.gifu-u.ac.jp/jyouhou/">岐阜大学 工学部 電気電子・情報工学科 情報コース</a>
-                        
-                    </p>
-                    <h2>研究室</h2>
-                    <p>
-                        <a href="http://gnst.gifu-u.ac.jp/intellscieng/">岐阜大学 工学部 電気電子・情報工学科 加藤研究室</a>
-                    </p>
-                    <h2>学会発表</h2>
-                    <p>
-                        <a href="https://miru-committee.github.io/miru2024/program/timetable/">鈴木拓実, 伊藤颯汰, 加藤邦人 (岐阜大), 相澤宏旭 (広島大), “LSegのラベル予測確率分布を用いた特徴場の学習法”</a>
-                    </p>
-                    <h2>スキル</h2>
+                <h2>経歴</h2>
+                <p>2024.04 - 現在 :
+                    <a href="http://gnst.gifu-u.ac.jp/intellscieng/">岐阜大学 自然科学技術研究科 知能理工学専攻 知能情報学領域</a><br>
+                    2020.04 - 2024.03: <a href="https://www.eng.gifu-u.ac.jp/jyouhou/">岐阜大学 工学部 電気電子・情報工学科 情報コース</a>
+
+                </p>
+                <h2>研究室</h2>
+                <p>
+                    <a href="http://gnst.gifu-u.ac.jp/intellscieng/">岐阜大学 工学部 電気電子・情報工学科 加藤研究室</a>
+                </p>
+                <h2>学会発表</h2>
+                <p>
+                    <a href="https://miru-committee.github.io/miru2024/program/timetable/">鈴木拓実, 伊藤颯汰, 加藤邦人 (岐阜大), 相澤宏旭
+                        (広島大), “LSegのラベル予測確率分布を用いた特徴場の学習法”</a>
+                </p>
+                <h2>スキル</h2>
+                <div class="language">
+                    <img src="images/langeuage_icon/python.png" alt="Pythonのロゴ">
+                    Python,&nbsp;
+                    <img src="images/langeuage_icon/pytorch.png" alt="Pytorchのロゴ">
+                    Pytorch
                     <div>
-                        <div class="language">
-                            Python, Pytorch
-                            <div>
-                                研究を行う際に最も使用する言語です
-                            </div>
-                        </div>
-                        <div class="language">
-                            Python, Pytorch
-                            <div>
-                                研究を行う際に最も使用する言語です
-                            </div>
-                        </div>
+                        研究を行う際に最も使用する言語です
                     </div>
+                </div>
+                <div class="language">
+                    <img src="images/langeuage_icon/c.png" alt="Pythonのロゴ">
+                    C,&nbsp;
+                    <img src="images/langeuage_icon/c++.png" alt="Pythonのロゴ">
+                    C++
+                    <div>
+                        大学の講義で学習し、PIC16F88を用いた組み込みシステムの開発を行いました。
+                    </div>
+                </div>
+                <div class="language">
+                    <img src="images/langeuage_icon/java.png" alt="Pythonのロゴ">
+                    Java
+                    <div>
+                        大学の講義で学習し、ペイントアプリや３次元シューティングゲームを自作しました。</div>
+                </div>
+                <div class="language">
+                    <img src="images/langeuage_icon/android.png" alt="Pythonのロゴ">
+                    Android
+                    <div>
+                        大学の講義で学習し、YouTube APIを用いて再生数に応じてどの日の動画が再生されるかを把握できるカレンダーアプリを開発しました。
+                    </div>
+                </div>
+                <div class="language">
+                    <img src="images/langeuage_icon/mysql.png" alt="Pythonのロゴ">
+                    MySQL
+                    <div>
+                        ハッカソンに参加し、チームで開発したアプリにおいてデータベースの設計を行いました。
+                    </div>
+                </div>
+                <div class="language">
+                    <img src="images/langeuage_icon/html.png" alt="Pythonのロゴ">
+                    HTML,&nbsp;
+                    <img src="images/langeuage_icon/css.png" alt="Pythonのロゴ">
+                    CSS,&nbsp;
+                    <img src="images/langeuage_icon/js.png" alt="Pythonのロゴ">
+                    JavaScript,
+                    <div>
+                        このページを作成する際に使用しました。
+                    </div>
+                </div>
+                <div class="language">
+                    <img src="images/langeuage_icon/docker.png" alt="Pythonのロゴ">
+                    Docker
+                    <div>
+                        リモートのGPUを動かすための仮想環境として研究室で使用しています。
+                    </div>
+                </div>
             </section>
         </main>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
